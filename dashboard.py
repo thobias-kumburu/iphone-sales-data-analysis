@@ -330,7 +330,7 @@ with col1:
         line=dict(color=COLORS['primary'], width=3),
         marker=dict(size=10, color=COLORS['primary']),
         fill='tozeroy',
-        fillcolor=COLORS['primary'] + '15',
+        fillcolor='rgba(30, 64, 175, 0.15)',
         hovertemplate='<b>%{x}</b><br>Revenue: $%{y:,.0f}<extra></extra>'
     ))
     fig_revenue.update_layout(
@@ -358,7 +358,7 @@ with col2:
         line=dict(color=COLORS['secondary'], width=3),
         marker=dict(size=10, color=COLORS['secondary']),
         fill='tozeroy',
-        fillcolor=COLORS['secondary'] + '15',
+        fillcolor='rgba(124, 58, 237, 0.15)',
         hovertemplate='<b>%{x}</b><br>Units: %{y:,.0f}<extra></extra>'
     ))
     fig_quantity.update_layout(
